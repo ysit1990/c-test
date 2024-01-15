@@ -6,7 +6,7 @@
 因此环列队列是逻辑上将数组元素q[0]与q[MAXN-1]连接，形成一个存放队列的环形空间。
 
 为了方便读写，还要用数组下标来指明队列的读写位置。其中front指向可以读的位置，tail指向可以写的位置。
-![Alt text](https://aloft.oss-cn-hangzhou.aliyuncs.com/C4CA4238A0B923820DCC509A6F75849B.jpg)
+![Alt text](images/C4CA4238A0B923820DCC509A6F75849B.png)
 
 #### 测试代码
 - queue_test1.c 使用二维数组实现存储字符串数据的环形队列
